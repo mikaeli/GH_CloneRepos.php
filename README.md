@@ -9,11 +9,18 @@ and clones every repository with git.
 
 
 
-## Usage:
+## Usage
 
 php GH_CloneRepos.php [username]
 
 Where username is either usename or oraganization name.
+
+## Requirements
+
+GH_CloneRepos.php uses **curl** and **json** php extensions to
+fetch data from GitHub API and parse the response.
+
+**Git** is used to clone repositories.
 
 
 ## Bugs
